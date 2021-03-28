@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+button{
+  padding: 1rem 2rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+
+button:focus{
+  outline: none;
+}
+
+button:active{
+  transform: scale(0.98);
+  outline: none;
+}
